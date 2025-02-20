@@ -206,6 +206,11 @@
         }
       },
       {
+        "command": "mjml.beautify",
+        "title": "Beautify",
+        "category": "MJML"
+      },
+      {
         "command": "mjml.exportHTML",
         "title": "Export HTML",
         "category": "MJML"

@@ -9,6 +9,7 @@ import Linter from './linter'
 import Preview from './preview'
 import Template from './template'
 import Version from './version'
+import Beautify from './beautify'
 
 let context: ExtensionContext
 let extensionFeatures: object[] = []
@@ -17,6 +18,7 @@ export function activate(extensionContext: ExtensionContext) {
   context = extensionContext
 
   extensionFeatures = [
+    new Beautify(context.subscriptions),
     new Completion(context.subscriptions),
     new Copy(context.subscriptions),
     new Documentation(context),
