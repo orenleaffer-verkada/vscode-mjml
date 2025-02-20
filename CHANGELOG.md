@@ -2,6 +2,11 @@
 All notable changes to the "mjml" extension will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+### [2.1.0] (2025-02-20)
+
+* [update] MJML to MJML5 experimental branch
+* [fix] Beautify formatter is now based on prettier
+
 ### [1.6.0] (2018-10-28)
 * [new] Configuration property `mjml.templateGallery`: Show the template gallery instead of quick pick.
 * [new] Configuration property `mjml.templateGalleryAutoClose`: Automatically close template gallery when selecting a template.

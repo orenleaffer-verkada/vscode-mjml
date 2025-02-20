@@ -2,7 +2,7 @@
   "name": "vscode-mjml",
   "displayName": "MJML Official",
   "description": "MJML preview, lint, compile for Visual Studio Code.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "mjmlio",
   "license": "MIT",
   "readme": "README.md",
@@ -139,29 +139,6 @@
           "default": true,
           "description": "Automatically close preview when all open MJML documents have been closed.",
           "type": "boolean"
-        },
-        "mjml.screenshotQuality": {
-          "default": 75,
-          "description": "Screenshot quality.",
-          "type": "number"
-        },
-        "mjml.screenshotType": {
-          "default": "jpg",
-          "description": "Screenshot type. Possible values are 'png', 'jpg', and 'jpeg'.",
-          "type": "string"
-        },
-        "mjml.screenshotWidth": {
-          "default": 650,
-          "description": "Screenshot width.",
-          "type": "number"
-        },
-        "mjml.screenshotWidths": {
-          "default": [
-            640,
-            750
-          ],
-          "description": "Screenshot widths.",
-          "type": "array"
         },
         "mjml.updateWhenTyping": {
           "default": true,
