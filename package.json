@@ -55,6 +55,16 @@
           "description": "Beautify options.",
           "type": "object"
         },
+        "mjml.prettierPrintWidth": {
+          "default": 240,
+          "description": "Line wrap length (passed to prettier)",
+          "type": "number"
+        },
+        "mjml.prettierTabWidth": {
+          "default": 2,
+          "description": "Tab width (passed to prettier)",
+          "type": "number"
+        },
         "mjml.beautifyHtmlOutput": {
           "default": false,
           "description": "Beautify HTML output. (Works when `mjml.minifyHtmlOutput` aren't enabled.)",

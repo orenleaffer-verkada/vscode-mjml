@@ -9,6 +9,7 @@ import {
   TextEditor,
   TextEditorEdit,
   window,
+  workspace,
 } from 'vscode'
 
 import { isMJMLFile } from './helper'
@@ -29,7 +30,8 @@ export default class Beautify {
               document.getText(),
               {
                 parser: 'html',
-                printWidth: 240,
+                printWidth: workspace.getConfiguration('mjml').prettierPrintWidth,
+                tabWidth: workspace.getConfiguration('mjml').prettierTabWidth,
                 singleQuote: true,
               },
             )
